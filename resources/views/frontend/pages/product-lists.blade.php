@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','E-SHOP || PRODUCT PAGE')
+@section('title','SATIRAKSA || PRODUCT PAGE')
 
 @section('main-content')
 	
@@ -370,7 +370,7 @@
 	.filter_button{
         /* height:20px; */
         text-align: center;
-        background:#F7941D;
+        background:#949494;
         padding:8px 16px;
         margin-top:10px;
         color: white;

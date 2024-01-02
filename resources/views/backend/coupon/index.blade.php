@@ -26,16 +26,6 @@
               <th>Action</th>
             </tr>
           </thead>
-          <tfoot>
-            <tr>
-                <th>S.N.</th>
-                <th>Coupon Code</th>
-                <th>Type</th>
-                <th>Value</th>
-                <th>Status</th>
-                <th>Action</th>
-              </tr>
-          </tfoot>
           <tbody>
             @foreach($coupons as $coupon)   
                 <tr>
