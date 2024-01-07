@@ -14,8 +14,8 @@
 							@php
 								$settings=DB::table('settings')->get();
 							@endphp
-							<p class="text">@foreach($settings as $data) {{$data->short_des}} @endforeach</p>
-							<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">@foreach($settings as $data) {{$data->phone}} @endforeach</a></span></p>
+							<p class="text">Terima kasih telah memilih Satiraksa sebagai mitra belanja online Anda. Temukan beragam produk berkualitas tinggi dan nikmati pengalaman belanja yang nyaman dan aman. Dapatkan penawaran eksklusif, diskon menarik, dan layanan pelanggan terbaik. Segera kunjungi situs kami untuk kepuasan belanja yang tak tertandingi.</p>
+							<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+62 812 1063 8157</a></span></p>
 						</div>
 						<!-- End Single Widget -->
 					</div>
@@ -54,9 +54,9 @@
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>
-									<li>@foreach($settings as $data) {{$data->address}} @endforeach</li>
-									<li>@foreach($settings as $data) {{$data->email}} @endforeach</li>
-									<li>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
+									<li>Jalan Jatihandap No.5, Cibeunying Kidul, Bandung.</li>
+									<li>satiraksa@gmail.com</li>
+									<li>+62 812 1063 8157</li>
 								</ul>
 							</div>
 							<!-- End Single Widget -->

@@ -31,7 +31,7 @@
 								$settings=DB::table('settings')->get();
 							@endphp
 							<h3>Welcome To <span>Satiraksa</span></h3>
-							<p>@foreach($settings as $data) {{$data->description}} @endforeach</p>
+							<p>Satiraksa adalah destinasi fashion daring yang menghadirkan pengalaman belanja pakaian pria dan wanita dengan sentuhan kelas dan gaya yang tak tertandingi. Dengan koleksi terkini dari desainer terkemuka dan merek bergengsi, Satiraksa memadukan keanggunan dan kekinian dalam satu tempat. Nikmati kemudahan berbelanja dengan antarmuka yang ramah pengguna, fitur pencarian yang canggih, dan ulasan pelanggan yang membantu dalam membuat pilihan yang tepat. Dari pakaian kasual hingga busana pesta, Satiraksa menghadirkan pilihan yang tak terbatas untuk mengekspresikan gaya pribadi Anda. Temukan fashion terkini dan jadilah ikon gaya dengan Satiraksa - di mana tren bertemu kenyamanan belanja online yang tak tertandingi.</p>
 							<div class="button">
 								<a href="{{route('blog')}}" class="btn">Our Blog</a>
 								<a href="{{route('contact')}}" class="btn primary">Contact Us</a>
