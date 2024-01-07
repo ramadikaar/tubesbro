@@ -9,7 +9,7 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="{{route('home')}}"><img src="images\Logo-Satiraksa-Invers.png" alt="logo-satir-invrs"></a>
+								<a href="{{route('home')}}"><img src="{{ asset('images/Logo-Satiraksa-Invers.png') }}" alt="logo-satir-invrs"></a>
 							</div>
 							@php
 								$settings=DB::table('settings')->get();
